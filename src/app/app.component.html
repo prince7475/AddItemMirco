@@ -1,0 +1,30 @@
+
+<div class="body">
+
+
+<div class="navbar">
+  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Home</button>
+    <button mat-menu-item>Add Item</button>
+  </mat-menu>
+</div>
+
+
+<h1>Add Item</h1>
+
+<div class="example-container">
+  <mat-form-field>
+    <input matInput placeholder="Input">
+  </mat-form-field>
+
+  <mat-form-field>
+    <textarea matInput placeholder="Textarea"></textarea>
+  </mat-form-field>
+
+</div>
+
+  
+<button mat-button>Submit</button>
+
+</div>
